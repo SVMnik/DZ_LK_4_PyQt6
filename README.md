@@ -106,8 +106,8 @@ except FileNotFoundError as error:
 
 ```bash
 pip install PyQt6
-Запуск приложения
 ```
+Запуск приложения
 ```bash
 python dz_PyQt6.py
 ```
