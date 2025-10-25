@@ -41,15 +41,8 @@
 ## Структура проекта
 
 ### Файлы и папки
-project/
-├── dz_PyQt6.py # Основной файл приложения
-├── images/ # Папка с ресурсами
-│ ├── hello.jpg # Фоновое изображение
-│ ├── russia-saul-goodman.gif # Анимированный GIF
-│ ├── skyblue.png # Фоновое изображение профиля
-│ └── profile_image.png # Аватар пользователя
+<img width="744" height="329" alt="image" src="https://github.com/user-attachments/assets/34cd3e3c-dadf-49d3-ba34-4d7eaf81702e" />
 
-text
 
 ### Классы приложения
 
