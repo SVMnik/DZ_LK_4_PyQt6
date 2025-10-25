@@ -92,20 +92,20 @@ bio_label.move(15, 185)             # размещение заголовка б
 world_label.move(-2, 40)            # позиционирование изображения
 Иерархия текстовых элементов
 Программа использует систематическое изменение размеров шрифтов для создания четкой визуальной структуры:
-
-python
+```
+```python
 user_label.setFont(QFont("Arial", 20))  # верхний уровень - имя пользователя
 bio_label.setFont(QFont("Arial", 17))   # разделы - заголовки
 about_label.setFont(QFont("Arial", 10)) # основной текст - содержание
 Механизм работы с изображениями
 Статические изображения:
-
-python
+```
+```python
 pixmap = QPixmap(image)              # загрузка изображения
 label.setPixmap(pixmap)              # отображение
 Анимированные GIF:
-
-python
+```
+```python
 movie = QMovie(gif_path)             # загрузка GIF
 movie.setScaledSize(QSize(100, 100)) # масштабирование
 gif_label.setMovie(movie)            # установка в label
@@ -119,12 +119,13 @@ raise_() - перемещение виджета на передний план 
 
 Механизм запуска приложения
 В главном блоке создается экземпляр QApplication, инициализируются оба окна, и запускается главный цикл обработки событий через app.exec():
-
-python
+```
+```python
 app = QApplication(sys.argv)
 window1 = MainWindow()
 window2 = MainWindowProfile()
 sys.exit(app.exec())
+```
 Принципы работы PyQt6 в данном коде
 Модель виджетов
 Программа использует древовидную структуру виджетов, где главные окна (QWidget) - корневые элементы, содержащие дочерние компоненты QLabel для текста и изображений.
@@ -142,7 +143,7 @@ sys.exit(app.exec())
 Проверка файлов
 Используется конструкция try-except с FileNotFoundError для проверки наличия графических файлов перед загрузкой:
 
-python
+```python
 try:
     with open(image):
         # Загрузка изображения
