@@ -1,3 +1,5 @@
+<img width="1820" height="1039" alt="image" src="https://github.com/user-attachments/assets/ba033555-b5c6-47d9-9fc3-e23fc70f4e96" />
+
 # PyQt6 GUI Application - User Profile and Welcome Window
 
 ## Описание проекта
