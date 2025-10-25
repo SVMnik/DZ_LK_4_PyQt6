@@ -157,6 +157,7 @@ try:
         # Загрузка изображения
 except FileNotFoundError as error:
     print(f"Image not found.\nError: {error}")
+```
 Работа с текстом
 setWordWrap(True) - включение переноса текста
 
